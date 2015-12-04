@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayoutForButton"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <TextView
-        android:textSize="20sp"
-        android:text="Opción multiple"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Opción multiple"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnAgregarPregunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar pregunta" />
 
 </LinearLayout>

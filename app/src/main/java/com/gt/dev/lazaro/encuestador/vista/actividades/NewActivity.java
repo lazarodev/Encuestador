@@ -82,7 +82,6 @@ public class NewActivity extends AppCompatActivity {
                         break;
                 }
 
-
             }
         });
     }
